@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
   <title id="title">Total years of experience by technology</title>
   <desc id="desc">PHP 16 years, JavaScript 16 years, Symfony 13 years, Flutter 5 years, Laravel 2 years, Drupal 2 years, C++ 2 years, Python 1 year, FastAPI 1 year, and AI Engineering 1 year.</desc>
   <defs>
@@ -6,80 +6,92 @@
       <stop offset="0" stop-color="#2ea043"/>
       <stop offset="1" stop-color="#39d353"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#17202a" flood-opacity="0.12"/>
-    </filter>
+    <style>
+      .background { fill: #ffffff; }
+      .card { fill: #ffffff; stroke: #d0d7de; }
+      .title { fill: #1f2328; }
+      .muted { fill: #656d76; }
+      .label { fill: #1f2328; }
+      .grid { stroke: #d0d7de; }
+      .track { fill: #eaeef2; }
+      @media (prefers-color-scheme: dark) {
+        .background { fill: #0d1117; }
+        .card { fill: #161b22; stroke: #30363d; }
+        .title, .label { fill: #f0f6fc; }
+        .muted { fill: #8b949e; }
+        .grid { stroke: #30363d; }
+        .track { fill: #21262d; }
+      }
+    </style>
   </defs>
 
-  <rect width="900" height="700" rx="28" fill="#ffffff"/>
-  <circle cx="820" cy="-10" r="150" fill="#39d353" opacity="0.12"/>
-  <circle cx="35" cy="680" r="125" fill="#2ea043" opacity="0.10"/>
-  <g filter="url(#shadow)">
-    <rect x="42" y="38" width="816" height="624" rx="22" fill="#ffffff"/>
+  <rect class="background" width="760" height="500" rx="18"/>
+  <rect class="card" x="16" y="16" width="728" height="468" rx="14"/>
+
+  <text class="title" x="42" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="700">Total years of experience</text>
+  <text class="muted" x="42" y="81" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Technology experience · Last updated: 06.10.2026</text>
+
+  <g class="muted" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">
+    <text x="242" y="115">0 years</text>
+    <text x="385" y="115">5 years</text>
+    <text x="527" y="115">10 years</text>
+    <text x="700" y="115">16 years</text>
+  </g>
+  <g class="grid" stroke-width="1">
+    <path d="M242 124v330"/>
+    <path d="M385 124v330"/>
+    <path d="M527 124v330"/>
+    <path d="M700 124v330"/>
   </g>
 
-  <text x="78" y="91" fill="#24292f" font-family="Georgia, serif" font-size="34" font-weight="700">Total years of experience</text>
-  <text x="78" y="122" fill="#57606a" font-family="Arial, sans-serif" font-size="15">Technology experience · Last updated: 06.10.2026</text>
-
-  <g font-family="Arial, sans-serif" font-size="13" fill="#8b949e">
-    <text x="330" y="171">0 years</text>
-    <text x="489" y="171">5 years</text>
-    <text x="648" y="171">10 years</text>
-    <text x="784" y="171">16 years</text>
-  </g>
-  <g stroke="#d0d7de" stroke-width="1">
-    <path d="M330 181v446"/>
-    <path d="M489 181v446"/>
-    <path d="M648 181v446"/>
-    <path d="M840 181v446"/>
+  <g class="label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">
+    <text x="42" y="148">PHP</text>
+    <text x="42" y="181">JavaScript</text>
+    <text x="42" y="214">Symfony</text>
+    <text x="42" y="247">Flutter</text>
+    <text x="42" y="280">Laravel</text>
+    <text x="42" y="313">Drupal</text>
+    <text x="42" y="346">C++</text>
+    <text x="42" y="379">Python</text>
+    <text x="42" y="412">FastAPI</text>
+    <text x="42" y="445">AI Engineering</text>
   </g>
 
-  <g font-family="Arial, sans-serif" font-size="15" fill="#24292f">
-    <text x="78" y="214">PHP</text>
-    <text x="78" y="258">JavaScript</text>
-    <text x="78" y="302">Symfony</text>
-    <text x="78" y="346">Flutter</text>
-    <text x="78" y="390">Laravel</text>
-    <text x="78" y="434">Drupal</text>
-    <text x="78" y="478">C++</text>
-    <text x="78" y="522">Python</text>
-    <text x="78" y="566">FastAPI</text>
-    <text x="78" y="610">AI Engineering</text>
-  </g>
-  <g fill="#eaeef2">
-    <rect x="330" y="198" width="510" height="16" rx="8"/>
-    <rect x="330" y="242" width="510" height="16" rx="8"/>
-    <rect x="330" y="286" width="510" height="16" rx="8"/>
-    <rect x="330" y="330" width="510" height="16" rx="8"/>
-    <rect x="330" y="374" width="510" height="16" rx="8"/>
-    <rect x="330" y="418" width="510" height="16" rx="8"/>
-    <rect x="330" y="462" width="510" height="16" rx="8"/>
-    <rect x="330" y="506" width="510" height="16" rx="8"/>
-    <rect x="330" y="550" width="510" height="16" rx="8"/>
-    <rect x="330" y="594" width="510" height="16" rx="8"/>
+  <g class="track">
+    <rect x="242" y="135" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="168" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="201" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="234" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="267" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="300" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="333" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="366" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="399" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="432" width="458" height="13" rx="6.5"/>
   </g>
   <g fill="url(#accent)">
-    <rect x="330" y="198" width="510" height="16" rx="8"/>
-    <rect x="330" y="242" width="510" height="16" rx="8"/>
-    <rect x="330" y="286" width="414" height="16" rx="8"/>
-    <rect x="330" y="330" width="159" height="16" rx="8"/>
-    <rect x="330" y="374" width="64" height="16" rx="8"/>
-    <rect x="330" y="418" width="64" height="16" rx="8"/>
-    <rect x="330" y="462" width="64" height="16" rx="8"/>
-    <rect x="330" y="506" width="32" height="16" rx="8"/>
-    <rect x="330" y="550" width="32" height="16" rx="8"/>
-    <rect x="330" y="594" width="32" height="16" rx="8"/>
+    <rect x="242" y="135" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="168" width="458" height="13" rx="6.5"/>
+    <rect x="242" y="201" width="371" height="13" rx="6.5"/>
+    <rect x="242" y="234" width="143" height="13" rx="6.5"/>
+    <rect x="242" y="267" width="57" height="13" rx="6.5"/>
+    <rect x="242" y="300" width="57" height="13" rx="6.5"/>
+    <rect x="242" y="333" width="57" height="13" rx="6.5"/>
+    <rect x="242" y="366" width="29" height="13" rx="6.5"/>
+    <rect x="242" y="399" width="29" height="13" rx="6.5"/>
+    <rect x="242" y="432" width="29" height="13" rx="6.5"/>
   </g>
-  <g font-family="Arial, sans-serif" font-size="13" fill="#57606a" text-anchor="end">
-    <text x="815" y="211">16 years</text>
-    <text x="815" y="255">16 years</text>
-    <text x="815" y="299">13 years</text>
-    <text x="815" y="343">5 years</text>
-    <text x="815" y="387">2 years</text>
-    <text x="815" y="431">2 years</text>
-    <text x="815" y="475">2 years</text>
-    <text x="815" y="519">1 year</text>
-    <text x="815" y="563">1 year</text>
-    <text x="815" y="607">1 year</text>
+
+  <g class="muted" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" text-anchor="end">
+    <text x="688" y="146">16 years</text>
+    <text x="688" y="179">16 years</text>
+    <text x="688" y="212">13 years</text>
+    <text x="688" y="245">5 years</text>
+    <text x="688" y="278">2 years</text>
+    <text x="688" y="311">2 years</text>
+    <text x="688" y="344">2 years</text>
+    <text x="688" y="377">1 year</text>
+    <text x="688" y="410">1 year</text>
+    <text x="688" y="443">1 year</text>
   </g>
 </svg>
