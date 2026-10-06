@@ -1,4 +1,6 @@
-## Hi there 👋
+## Total years of experience
+
+Technology experience · Last updated: 06.10.2026
 
 <p align="center">
 	<img src="experience-chart.svg" alt="Total years of experience by technology" width="800" />
