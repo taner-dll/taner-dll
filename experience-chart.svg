@@ -8,7 +8,7 @@
     </linearGradient>
     <style>
       .background { fill: #ffffff; }
-      .card { fill: #ffffff; stroke: #d0d7de; }
+      .card { fill: #ffffff; }
       .title { fill: #1f2328; }
       .muted { fill: #656d76; }
       .label { fill: #1f2328; }
@@ -16,7 +16,7 @@
       .track { fill: #eaeef2; }
       @media (prefers-color-scheme: dark) {
         .background { fill: #0d1117; }
-        .card { fill: #161b22; stroke: #30363d; }
+        .card { fill: #161b22; }
         .title, .label { fill: #f0f6fc; }
         .muted { fill: #8b949e; }
         .grid { stroke: #30363d; }
