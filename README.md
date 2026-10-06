@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+<p align="center">
+	<img src="experience-chart.svg" alt="Total years of experience by technology" width="800" />
+</p>
+
 <!--
 **taner-dll/taner-dll** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
